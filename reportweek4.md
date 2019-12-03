@@ -6,3 +6,4 @@ Lundi 02/12/2019
 	- Forme normales
 Mardi 03/12/2019
 - Learn how to use workbench
+- Learn def python and def recursive 
