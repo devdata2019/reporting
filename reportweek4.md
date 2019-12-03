@@ -5,4 +5,4 @@ Lundi 02/12/2019
 	- Matrice des dépendances fonctionnelles
 	- Forme normales
 Mardi 03/12/2019
-
+- Learn how to use workbench
