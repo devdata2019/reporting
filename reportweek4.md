@@ -10,3 +10,4 @@
 ### Mercredi 04/12/2019
 	- Talk Algorithme : 2 méthodes : LDA (pseudo-code), Diagrame.
 	- Samba qui parle beaucoup
+	- re setup my ssh key 
