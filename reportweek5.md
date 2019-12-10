@@ -3,3 +3,5 @@
 - Fonction incursive
 - Class objet fonction
 - Intervention de Vanessa : data scientist CMA CGM
+- Analyse du script labyrinth
+- Do : Class & Method sur projet carnet dadre
