@@ -1,4 +1,5 @@
 
+
 #reportweek 8
 
 #Monday 06 January 2020
@@ -7,9 +8,17 @@
 -
 #Thuesday 07 January 2020
 - back to functionel relitionship
-#Thirdsay 08 January 2020
+#Wednesday 08 January 2020
 - Restitution LePaysanUrbain
 - Project study
+-
+-
+#Thursday 09 January 2020
+- Project OpenData
+- Git-team
+- ReadTheDocs
+#Friday 10 January 2020
+-
 -
 -
 
