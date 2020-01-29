@@ -1,6 +1,4 @@
-
-
-## reportweek 8
+## Report week 8
 
 ### Monday 06 January 2020
 - Import data INSEE with spyder into mysql
