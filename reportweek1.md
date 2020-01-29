@@ -10,7 +10,7 @@
 [D]  Talk/Learning 
  
 ### Vendredi 15/11/2019
-  #### [A]  Setup unbuntu : 
+#### [A]  Setup unbuntu : 
 **Setup up the workspace on ubuntu, learning the basics command to navigue trough**
     Basics command : 
       - cd : move
