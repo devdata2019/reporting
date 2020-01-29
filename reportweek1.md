@@ -35,9 +35,12 @@
 [D]  Setup different tools : bloggers,mode ..ect
 [D]  Talk google cloud 
 **Talk about the strengh of google cloud and why is it worth learning how to use it, every google tools are part of the same environement opensource** 
-[D]  Talk work SGBD
-[D]  Install mysql
-[A]  Add DB 
-[A]  Training on basic request
+[D]  Quick talk SGBD
+[D]  Install MySQL
+**Setup MySQL server and add a basic database**
+    basic command/request:
+      - SELECT
+      - ALTER
+      - DROP
 [A]  Install workbench
-
+**setup workbench**
