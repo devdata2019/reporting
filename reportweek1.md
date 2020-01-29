@@ -1,10 +1,14 @@
 ## Report week 1
+
 ### Mardi 12/11/2019
   - Talk/Learning projet
+
 ### Mercredi 13/11/2019
   - Talk/Learning projet
+
 ### Jeudi 14/11/2019 
   - Talk/Learning 
+ 
 ### Vendredi 15/11/2019
   - Setup inbuntu : check
   - Setup gmail
