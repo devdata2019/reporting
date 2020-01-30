@@ -7,7 +7,7 @@ Talk/Learning projet [D]
 Talk/Learning projet [D]
 
 ### Jeudi 14/11/2019 
-[Talk/Learning [D]
+Talk/Learning [D]
 
 ## Vendredi 15/11/2019
 
@@ -69,6 +69,7 @@ Talk/Learning projet [D]
       - SELECT
       - ALTER
       - DROP
+      - CREATE
 
 ---
 

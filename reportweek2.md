@@ -1,7 +1,10 @@
-## Report week 2
+# Report week 2
 
-### Monday 18/11/2019
-- Mise en place BD
+## Monday 18/11/2019
+
+### Setup a database
+
+**Create a database on MySQL, in wich we will create some table**
 - Mise en place SGBD
 
 ### Thuesday 19/11/2019
