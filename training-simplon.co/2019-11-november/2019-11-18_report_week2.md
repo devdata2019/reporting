@@ -53,9 +53,8 @@ $ bash Anaconda3-2019.03-Linux-x86_64.sh
 
 Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. Matplotlib can be used in Python scripts, the Python and IPython shells, the Jupyter notebook, web application servers, and four graphical user interface toolkits.
 
----
-
-- Conception de graphique à partir de la base de données
+https://github.com/ejhb/project-done/blob/master/2019-11-21-auto-mpg/mathplotlib.py
 
 ### Friday 22/11/2019
-- Revue des exercices de la semaine 
+  
+**Check back on thoses days works** 

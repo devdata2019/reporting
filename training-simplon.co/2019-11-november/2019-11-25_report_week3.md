@@ -1,6 +1,11 @@
-## Reportweek 3
+# Reportweek 3
 
-### Monday 25/11/2019
+## Monday 25/11/2019
+
+### Merise method [ECA]
+  
+**Learning and first use of merise method on a database**
+
   - Conception d'un dictionnaire de données
   - Conception d'une base de données
 
