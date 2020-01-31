@@ -6,10 +6,12 @@
   
 **Learning and first use of merise method on a database**
 
-  - Conception d'un dictionnaire de données
-  - Conception d'une base de données
+**First step : data census**
+
+https://github.com/ejhb/course/blob/master/support-work/expert-pdf/6._Le_recensement_des_donnees.pdf
 
 ### Thuesday 26/11/2019
+
   - Schématisation du dictionnaire de données
   - Cardinalitées
 
