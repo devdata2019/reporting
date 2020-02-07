@@ -25,4 +25,24 @@
     - motivation letter is a recap about the SWOT we made with the intervention of Martin Maurel RH 
     
     - cv continue to progress on my website wich is my cv online an additionnal paper support would be also appriciated
+
+# Thursday 06 February
+
+## Bootcamp
+
+Bootcamp sql bolt readthedocs
+
+# Friday 07 February 
   
+## Interview Cecile alternance conception d'application
+
+The recap of this interview is avaible on my git in audit repository
+
+## Intervention Létitia 
+
+Setting up the Thuesday 11 February reverse mentoring conceptualisation d'application 
+
+- Pick 2 card wich represent a entreprise like mercedes and visa and describe the concept : We choose to create a app like car pay with you can pay with you car at the gas station , péage , drive ect.
+
+- Use Marvel app to import croquis and try to modelize our concept
+
