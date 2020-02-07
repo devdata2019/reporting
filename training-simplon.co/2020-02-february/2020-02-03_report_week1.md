@@ -46,3 +46,4 @@ Setting up the Thuesday 11 February reverse mentoring conceptualisation d'applic
 
 - Use Marvel app to import croquis and try to modelize our concept
 
+- Sensibiliation of using a complex password and how the perfect safety doesn't exist 
