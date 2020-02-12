@@ -6,3 +6,4 @@
 	- Add port to UFW and enable it 
 	- Apt-get ntp
 	- Add apache2 and setup it ( awfull ) 
+

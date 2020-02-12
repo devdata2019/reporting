@@ -9,7 +9,9 @@
 
 # Wednesday 12 Frabruary
 
+## Read The doc SQL
 
+**PM : Ludovic** 
 
 # Thursday 13 February 
 
