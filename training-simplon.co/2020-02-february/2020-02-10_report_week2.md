@@ -4,10 +4,10 @@
 
 - intervention day
 
-# Thuesday 11 February 
+# Thuesday 11 February 
 
 
-# Wednesday 12 Frabruary
+# Wednesday 12 Frabruary
 
 ## Read The doc SQL
 
@@ -15,7 +15,11 @@
 
 **update my-website**
 
-# Thursday 13 February 
+# Thursday 13 February 
 
+**restitution du projet Read The Doc Python**
 
-# Friday 14 February
+# Friday 14 February
+
+Python (TITLE)
+
