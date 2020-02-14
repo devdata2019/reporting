@@ -1,0 +1,47 @@
+Les étapes de construction d’un modèle analyse exploratoire
+
+uni-varié : stat descriptive pour chaque variables
+variés : étude de relations entre variables 
+multidimensionnel : permet d’observer la présence possible de groupes d’individus homogènes 
+
+L’analyse exploratoire à aussi pour but de détecter les valeurs rare ou manquante .
+Celle-ci peuvent ce savoir accorder une importance plus grande qu’elle ne devrait en avoir.
+Dece fait elle déséquilibre l’analyse
+
+
+Les types de donnés :
+
+    qualitative continues : calculs, égalités/dfférence , infériorité/supériotrité FLOAT 
+    qualitative discrète : calculs, égalités/dfférence , infériorité/supériotrité INT
+    qualitatives nominales : égalités/différence  STRING 
+    Qualitatives ordinales égalités/différence, infériorité/supériorité INT/STRG dans une fourchette
+
+
+ANALYSE UNI-VARIE 
+
+Moyenne :
+ 
+Médiane : 
+    Valeur de la série qui permet de couper l’ensemble des valeurs en deux parties égales : mettant d’un côté une moitié des valeurs , et de l’autre côté l’autre moitié des valeurs.
+
+Quartiles : 
+    La population peut être partagés en quatre sous populations de meêe effectif. Les valeurs qui correspondants aux limites deu partage sont des quartiles.
+
+Mode : 
+    Le mode d’une série qualitative ou discrète est la modalité ou la valeur qui enregistre le plus grand effectif.
+
+La variance :
+    Mesure de la dispersion des valeurs d’un sample autour de sa moyenne. Elle exprime la moyenne des carrés des écarts à la moyenne
+
+L’écart-type :
+    racine carré de la variance.
+
+LES GRAPHIQUE : 
+
+    Le diagramme criculaire est à privilégier pour réprésenter des séries dont le caractère est qualitatif.les parts du diagramme ont des aires qui sont proportionnelles aux effectifs de chaque madalité.
+
+    Me doagraùùe en barres en parfait lorsque le caractère est quantitatif.discret . Il est également utilisé pour les caractères qualitatif.C'est la longueur de chaque barre qui est proportionnelle aux effectifs ou aux %.
+
+    La courbe est très souvent utilisée pour répreésenter une série quatitative en situation dévolution, par exemple dant le temps. En réalité ce n'est pas une courbe puisqu'elle relie de façon rectiligne les points correspondants aux observations.
+
+    Le nuage de points est idéal pour représenter des individus en fonctions de deux critères quatitatifs, matérialisés par deux axes.

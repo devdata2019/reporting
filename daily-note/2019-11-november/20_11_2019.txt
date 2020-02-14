@@ -1,0 +1,49 @@
+Python list 
+
+Commande de base de liste
+
+Python loop : for / while
+
+while impose une condition 
+
+for est une requête 
+
+
+Avant de créé un programme ils nous faut un algoritme, un algo est une suite d’instructions. 
+
+Algo 3 étapes pour écrire un prog :
+
+analyser le problem posé 
+ecrire un algorithme indépendamment d’un langage de prog ( en litéraire )
+ensuite on le traduit en langage du programme
+
+
+a retenir : 
+
+pour write un algo on doit : 
+
+- un phrase prépartoire : les objectif
+- le traitement : liste d’instructions
+- sortie des résultat :
+
+
+Défis : Fétekado : 
+
+proposer un petit programme en python qui à partir de la liste complète des persone de simplon tire au hasard deux noms pour porposer le trade de gigt. 
+
+Subtilité, bien sûre : il y aura une list de nom à gift et une liste de noms sans gift.
+
+
+Exemple : 
+
+Tirage 1 : 
+Nom 1 to nom 2 
+nom 1 gift ) nom 2 
+nom 2 ouvre son gift 
+
+Tirage 2
+nom 3 – nom 2 donne son cadeau à nom 3 
+Nom 3 ouvre cadeau reçu
+
+tirage 3 
+nom 4 – nom 3 donne cadeau à 

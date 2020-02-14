@@ -1,0 +1,10 @@
+Mise en place de Trello 
+  Kanban
+    TODO
+    DONE 
+    PROGRESS 
+    BACKLOG
+
+Intervention Milène Reverse Mentoring ( apprenant teach to formateur) 
+
+Sur une variante de Scratch avec le modèle de minecraft.

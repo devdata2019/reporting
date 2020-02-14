@@ -1,0 +1,46 @@
+Learn & Pratique des requêtes SQL
+
+SELECT MONTHNAME(rental_date) FROM rental WHERE rental_date like '%2006%';
+
+SELECT DATEDIFF (rental_date,return_date) FROM rental;
+
+SELECT rental_date FROM rental
+WHERE (YEAR(rental_date) = 2005) and (HOUR(rental_date) < 1);
+
+SELECT rental_date FROM rental
+WHERE (YEAR(rental_date) = 2005 ) and (MONTH(rental_date) BETWEEN '4' and '5') ORDER BY rental_date ASC;
+
+SELECT title FROM film WHERE title NOT LIKE 'LE%';
+
+SELECT CASE rating
+    WHEN 'PG-13' THEN 'Oui'
+    WHEN 'NC-17' THEN 'Non'
+END
+FROM film
+WHERE rating = 'PG-13' or rating = 'NC-17';
+
+SELECT * FROM category WHERE name like 'A%' or name like 'C%';
+                          OU 
+SELECT name FROM category
+WHERE (LEFT(name,1) = 'A') or (LEFT(name,1) = 'C');
+
+SELECT LEFT(name,3) FROM category;
+
+SELECT REPLACE(first_name, 'E','A')
+FROM actor LIMIT 10;
+
+
+SELECT title,name FROM film 
+INNER JOIN language ON film.language_id = language.language_id
+ORDER BY title ASC LIMIT 10;
+
+SELECT title,first_name,last_name,release_year FROM film_actor
+INNER JOIN actor ON actor.actor_id = film_actor.actor_id
+INNER JOIN film ON film.film_id = film_actor.film_id
+WHERE first_name = 'JENNIFER' and last_name = 'DAVIS' and release_year = 2006 ;
+
+Nom de customer title : alabama dvil
+
+SELECT title,first_name,last_name FROM %%%
+INNER JOIN customer ON customer.customer_id = rental.customer_id
+INNER JOIN 

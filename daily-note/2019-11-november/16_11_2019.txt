@@ -1,0 +1,24 @@
+Aujourd’hui je me penche sur la construction de mon site en html 5 et css 3 basic. 
+
+Mais je rajoute une difficulté supplémentaire en ajoutant l’administration d’un vps héberger chez OVH qui est donc un server didié personnel sur lequel je vais heberger mon site. 
+
+Je rencontre un tas d’erreur et c’est pas peu dire. Je suis quasi à la fin de la journée et j’ai pris 4 heures à savoir pourquoi quand j’essai de me connecté à mon vps avec mon nom de domaine je n’y arrivais pas .
+
+J’ai donc use la command : -v ex : ssh -v user@ip.du.server.
+Pour avoir une list de debuggage et mettre le doigt sur le problème. Mon nom de domaine n’était pas relier au dns qui redirige mon nomdedomaine.com in to mon ip. Continue le tuto 
+
+
+J’ai du créé un cléé ssh et mieux comprendre son fonctionnement. C’est toujours en flou. La commande ssh-copy-id utilisateur@ipduserveur 
+
+https://www.hostinger.fr/tutoriels/generer-cle-ssh/
+
+D’ailleurs j’ai du réinstallé plusieurs fois le vps pour des raison de ssh et de dns et donc supprimé des ssh key qui étais en conflit avec cette line : sed -i '6d' ~/.ssh/known_hosts qui supprime la 6 ligne des known_host
+
+Le DNS est mis en place via OVH et redirige correctement mon ip à mon nom de domaine je peux désormais me connecté avec mon user à mon vps utilisant le nom de domaine. 
+
+Il ne me reste plus que lier mon chemin ou je range mes html à grossièrement sa diffusion. 
+
+Je m’arrête là pour aujourd’hui ça doit être une question de droit. 
+
+Je dois bien retenir qu’a chaque clé ssh sont id d’agent doit y être attribué et que la clé pub doit être transmise de l’autre côté de la rive pour fournir l’identification. 
+

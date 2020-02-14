@@ -1,0 +1,11 @@
+
+
+
+
+
+def printer(*stack, sep='', end='/n')
+    stack = list(stack)
+    
+    for i in *stack :
+        stack[i] = str(stack)
+

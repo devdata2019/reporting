@@ -1,0 +1,150 @@
+Comment modéliser une métadonnée : 
+   le recensement des données : 
+     recenser le métdonnées et les règles de gestion à ler établie.
+    Modèles conceptuelle de données : 
+      Modélisation théorique sur papier indépendante de l'outil utilisée 
+    Modègle logique de données :
+      C'est une adaptation du modèle conceputelle en fonction d'outil
+    Modèles physique :
+      On concretise le modèle sur un serveur et un SGBD
+
+Bon à avoir :
+     
+     Merise : éthode d'étdude et de raliation informatique pour les sys entreprise est une méthode d'analyses , de conception et de gestion de projet informatique
+    
+    Le langage de modélisation unifié est un langage de modélisation graphique à base de pictogrammes con_u pour fournir une méthode normalisée pour visualisé la conception d'un sys.
+
+LE recensement 
+
+Objectif :  
+
+
+    Sommaire : 
+
+    Objectif 
+    les enetrées 
+    les sortie 
+    le dictionnaire des données 
+    les règles de gestion 
+    pour conclure 
+    exercice
+
+
+Objecif : 
+
+    On formalkse cette liste sous forme d'u dictionnaire. Ce docu doit répondre à plusisieurs objectifs : 
+        Il doit définir les métadonnées dans le contect du projet.
+        Il doit recenser de manière exhaustive ces métadonnesdictionnaire.
+        Il doit être compréhensile et validé par tout les ateurfs dictionnaire.
+
+Les entrées : 
+
+Les éléments nous permetattant de définir les métdonnées sont ce qu'on appelle les entrées. cela peut être : 
+
+  Document, cahier des charges , éditions djà existants
+  Application informatique déjà existant 
+  Echange avec users.
+
+Exemple : 
+Le comité en charge de l'oganisation d'un marathon souhaite réaliser un sys d'information pour gérer les manifestations.
+
+Les entrées quel aura à sa disposition sont : 
+    L'équipe organisatrice présente
+    Les documents : liste de départ,dosserd itinéraire,résultat
+
+Les sortie 
+
+A la fin de cette étape il faut dispoer: 
+
+    Du dictionnaire des données : la liste des métdonnées
+
+Le dictionnaire des données : 
+
+- Le libellé ; défini une métadonnées présente dans le sus d'information cette information soit être monovaluée et non décomposabledictionnaire.
+Exemple : "nom" ne peut pas être utilisé car il  a le nom du coureur  et le nom du club. OPn utilisera plutôt "nom coureur " et "nom club"
+
+Le type est : 
+Un fois l'information utilisées on lui attrivut un type: 
+    Numéorique
+    string
+    booléens 
+    date
+    image 
+    fichier
+
+- La taille : 
+
+    La tialle quant à elle est utilisées pour optimiser les fonctionnement de la base de données. Certain type telle que les booléens n'ont pas besoin que l'on spécifie de taille.
+
+- La description permet de détailler la métadonnée et de la contextualiser.
+
+Les règles de gestion
+
+Le dictionnaire des données ne suffit pas de spéifier l'ensemble des besoin d'un projet . D'où la nécessité d'établier un liste de rèle de gestion (regles métier)club.
+
+Pour conclure :
+
+    Cette étape permet d'identifier et de clarifier les information à traiter . 
+    
+    L'espérience ds problèmes techniques permettra do'rienter les meilleurs choix au plus tout
+    
+    D'un point de vue gestion de projet cette étape correspond aux premier échange avec un client
+    
+    C'est une étape primordiale d'un projet car elle permet de le cardrer en situant le contecte et le sujet.
+
+
+exercice : 
+
+La nouvelle loi sur l'auto-entreprenariat viens d'être promulguées et vous vous dites que c'et peut-être le moment de vous mettre à votre compte
+
+Pour démarrer il vous faut un petit logiciel vous permettant de saisir vos interventions pour faciliter la tenue de votre comptabilité.
+
+Ce logiciel permettra la sai des coordonnées de clients et le materielle sur le quel vous être intervenu.
+
+Vous décidé d'appliquer un prix horaire différent selon le tupe d'intervention (certaines réparations ou manipulations doivent être factuées plus cher)
+
+Pour certaines pannes vous vendez le composant neuf. Le loficiel devra donc intégrer la vente du matériel inhérente à la réparationclub.
+A vous de concevoir le dictionnaire de données.
+
+
+Le langage de définition des données LDD
+
+Ce sont les requêtes SQL qui permette de gérer la structure d'une DB
+    - Commande de trois types :
+        - La création  CREATE 
+        - La modification : ALTER
+        - La suppression : DROP 
+
+
+Nomalisation des noms les bonne pratiques 
+    - Ne pas utiliser de mot clés SQL
+    - Ne jamais utiliser de craratères spéciaux
+    - Eviter les abréviations 
+    - Utiliser un préfixe dans le nom des champs 
+
+Types de données : 
+
+Chaine de caracères 
+    - TEXT , CHAR , VARCHAR
+
+Numérique 
+    - SMALLINT , INT , NUMERIC , FLOAT
+
+Date 
+    - DATE , TIME , DATETIME 
+
+Les contraintes 
+
+Une contrainte permet d'afiiner les valeurs accepté dans un chmap donnée.
+
+        - Null : indique si un hcamp puet contenir la valeur NULL ou pas .
+        - Default <valeur> : Assigne une veleur par défault à un champ.
+        - Unique : indique qu'un champ ne peut pas contenir de doublons.
+        - CHeck (<expression>) : ajoute un teste de validation des données d'un champ.
+    La clause : contrainte : 
+            CONSTRAINT CHK_Person CHECK (Age>=18 AND City='Sandine' )
+
+
+Exo : 
+
+Créé une table 

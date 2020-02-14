@@ -1,0 +1,78 @@
+Les logiciel bureautique : 
+    • -Excel 
+les loficiels généralistes à interface graphique 
+    • -SAS
+    • -QPQQ
+    • - Tanagra
+    • -statistica
+    • -rapidminer
+
+Vue d’ensemble de logiciels 
+
+- Les logiciels généraliste en lifne de commande :
+    • r 
+    • python
+	
+les logiciel spasql developper, PL/cialisés :
+    • requêtage SAL : roacle SQL developper , pl 
+
+Pourquoi python ?
+ 
+Ses caractéristique :
+
+- langage de prog généralist avec un ecosys scientifque.
+    • Open source et donc en constant upgrade
+    • forte commu et donc facilité à trouver de l’aide
+    • cadre unifié pour mettre oeuvre tout le process de l’analyse de données 
+    • langage interprété et non compilale → on peut traiter les prog ligne par ligne
+      Contrairement au programme compilatoire, en ligne par ligne il est plus facile de déceller le problème. 
+      
+
+Python comment ? 
+	
+    • Les scripts 
+        ◦ un pro et un séquence d’instctuion
+dans le cas d’un prog en .py on parle souvent de script 
+
+Les librairies  
+	Les bibliothèque sont des func python repose bcp sur ces librairie
+	Beaucoup des ses librairie sont importable depuis la commu créé par des chercheur ect.. 
+exemple : 
+    • numpy
+        ◦ Module pour la manip des matrices, tableaux multidimensionnels et func math opérant sur des tableaux
+    • scipy
+		module pour lopti, lalgèbre linéaire, lest stats, traitement
+    • Pandas 
+        ◦ module permettant de la manip et l’analyse de data , notamment des données num et des série temp 
+    • Matplot
+        ◦ permet de tracer et visualiser ldes données sou forme de graphique	
+    • Scikit-learn
+        ◦ destiné à lapprentissage automatique → forêts aléatoires, régression logistiques, classement , ..
+    • Tensorflow
+        ◦ apprentissage auto pour AI
+
+Jupyter notebook et spider sont des interface graphique qui permettent de mieux voir ton code et de le débugger plus facilement.
+
+api web permet aux user d’interagir avec le code et transformer le nav web en terminal interactif et en loficiel de traitement de texte en même temps.
+
+    • Programmer dans le nav
+    • le code, les instructions et la sortie son afficher en lifne
+    • utile pour write un code qui raconte un histoire
+    • utile pour raliser des compte rendu
+    • utiliser dans els scientifiques et les chercheurs
+
+Programation python 
+
+    • Variable : un coneneur d’information 
+ex : x = 3 
+
+Type de variable 
+
+    • un nbr entier
+    • un string
+    • un decimal
+    • valeurs complex de type list
+
+Condition If 
+
+Une condition if est suivis de elif si nécessaire et finit par un else pour traiter tout les cas. 

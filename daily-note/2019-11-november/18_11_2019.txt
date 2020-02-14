@@ -1,0 +1,98 @@
+Qu’est-ce qu’une base de données ? 
+
+Une Base de données est un « conteneur » , stockant des données qui peuvent être retraités pour produire une  information. Pour mériter le nom de base de données elle doit être capable de répondre à des requêtes (SQL).
+
+Qu’est-ce qu’un framework et particulièrement un framework web ?
+
+On choisit un SGBD en fonction de 4 axes : 
+- le budget pour le déploiment
+- le volume de données stockées.
+- la plate forme sur laquelle il doit fonctionné 
+- ce qu’il va écrire/lire
+
+Les interfaces graphique 
+est une api de base de données qui permet d’avoir une interface graphique ergonomique pour interagir avec le sys de bas de données .
+On peut la use pour build une BD relationnelle et la modifier.
+
+TO DO LIST : 
+
+Choisir un SGBD et le listé ses inconvénient et défault : nous avonc choisis postgreSQL :
+
+PostgreSQL à sa création a eu pour but de devenir le compilateur standard. 
+PostgreSQL est considéré comme le SGBD le plus performant et le plus avancé en Open-Source, c’est un des premiers choix des compagnie, grâce à sa technologie il peux agir sur des lourds volumes de DATA complexe. Il utilise un multi versioning qui autorise plusieurs dev à travailler en même temps (un peu comme Github).
+Apple, Yahoo, Facebook atteste de sa puissante réputation. 
+Il est améliorable avec des Add-ons.
+
+Avantage : 
+
+- Open source
+- Mutli versionning
+- Big and complex data
+- Puissante réputaion
+- Grosse commu et addon
+
+Défault :
+
+- sa techno complex galère pour compté des ligne
+- non disponible pour tout les hebergeur
+- documentation uniquement en anglais
+- vitesse de lecture relativement simple
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+On vient d’installer mysql server on la mis en place et secure avec les différent tuto
+https://support.rackspace.com/how-to/installing-mysql-server-on-ubuntu/
+
+Maintenant j’installe l’interface graphique sql workbench 
+https://www.linode.com/docs/databases/mysql/install-and-configure-mysql-workbench-on-ubuntu/
+
+
+
+
+
+
+
+
+
+
+
+
+
+			  Request de base : 
+
+Requêtes de sélection : SELECT
+
+Éviter les doublons : DISTINCT 
+
+Renommer une colonne : AS
+
+Trier les résultats : ORDER BY
+
+Limite le nombre de lignes de résultat : TOP/LIMIT
+
+Resteindre les résultats : WHERE, IN, AND, OR, BETWEEN

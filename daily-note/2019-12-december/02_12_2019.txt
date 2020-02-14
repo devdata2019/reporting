@@ -1,0 +1,36 @@
+Sommaire :
+
+    Objectif  
+  Le modèle relationnel 
+      Les dépendances fonctionnelles *
+      Identifiant
+      Matrice des dépendanes fonctionelles 
+      Les relations 
+      Les fromes normales 
+  Elaboration du modèle relationnel : passage de MCD au MLD-R 
+  Pour conclure 
+
+     Précédemment : le MDC nous donne le concept de notre future base. 
+
+     Maintenant : Le MODELE LOGIQUE DE DONNEES est ce qui va nous permettre de modéliser la structure selon la quelle les données seront stockées dans la future base de données -> On passe du concept à l'adaptation technique . 
+
+           Il est donc adapté à une famille de SGBD ( SGBDR , SGBDO? server XML, ... ). 
+           Pour les SGBDR -> Modèle relationenl de données. 
+
+Principes du modèle relationnel : 
+    Formaliser la structure de stockage des données : 
+      C'est une organisation qui repose sur l'utilisation de tableaux à deux dimensions -> Assure la cohérence et la redondance des valeurs.
+    
+    Formaliser la manipulation des données : 
+    Onverra plus tard que consulter des données réparti sur plusieurs tables concrnant un individus repose sur la théorie du calcul et de l'algébres relationnel. 
+
+Les dépendances fonctionelles
+
+Elles servent à définir les liens entre les métadonnées d dictionnaire vu précédemment.
+
+Exemple : 
+Il éxiste une dépendance fonctionnelle entre CO_ID et CO_NOM si CO_ID détermine CO_NOM .
+
+Un Clé primaire est un attribut qui définis plusieurs attribut. 
+
+INTERVENTION (IN_ID,IN_DATE,...#MA_ID,#PL_ID)  Les clé étrangère sont représenté par un #. Les clé étrangère sont définit par la clé primaire. 

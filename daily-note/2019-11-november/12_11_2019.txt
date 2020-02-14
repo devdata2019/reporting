@@ -1,0 +1,33 @@
+Les cinq étapes :
+
+Question : C’est quoi le problème
+Option : Quel solution je peux apporté à mon/mes problèmes
+Décision : Parmis les solution la/lesquelle je choisis d’appliquer 
+Action : Qui va mettre en œuvre et enfin appliqué la solution
+Observation : Analyser les résultat de notre plan d’action
+
+Le coût, la qualité, et le délais(jalon) sont les principaux levier d’un projet 
+
+Requête sequel :
+Collecter de l’information : 
+- Conception de la base de données.
+
+Python :
+Nettoyer des données : 
+-Ordonné la donnée
+
+Normaliser les donnée : 
+- Vérifier que la donnée est la bonne propriété.
+
+Représentation des données : 
+Faire la synthèse des données pour la vulgariser
+
+KISS : keep it simple 
+
+On peut distingué 3 grande catégorie de traitement des données : 
+
+- La manière descriptive
+- La manière préventive
+- La manière de recommandation
+
+En fonction du nombre de données à traités 

@@ -1,0 +1,36 @@
+Je suis toujours dans la mise en place de mon server dédié pour heberger mon site. Je suis entrain de corriger l’erreur 403 forbidden qui me donne mal au crâne. 
+
+En gros je dois donné à apache la route de mon directory que je veux affranchir et lui donné les droits. 
+
+J’utilise filezilla pour récupéré les file de mon server et les compare avec  la commande diff via le terminal avec des ficher d’un ami qui lui est opérationnel. 
+
+Ok au fur et à mesure de comparé les fichier ( c’est long et vraiment très chiant ) Je me rend compte que dans mon 000.default.conf dans le dossier site-avaible j’ai oublier un slash : 
+
+DocumentRoot home/ejhb/projects/www 
+aulieu de 
+DocumentRoot /home/ejhb/projects/www
+
+aaaaaaaaaaaaaaah !
+
+Ok donc les fonctionnalité de base le dns, ssh, ping. 
+
+Je me lance mainteanant dans l’installation du HTTPS let’s encrypte 
+Je suis un tuto https://facemweb.com/creation-site-internet/lets-encrypt-vps
+seulement au moment de générer des certificat je tombe sur une erreur. Ca fait 2 heures que je suis bloquer dessus. Il s’agirait d’un problème de leur côté niveau server. Quand on arrive sur la fiche des status sur letsencrypt.io/status les server acme sont down.
+
+A noté que dans les log de lets encrypt c’est une vrai merde pour trouver son erreur. Un seul essai de connection génère 7 page de log un calvaire à lire. On pouvait y retrouver plusieur fois intenal error acme ect .. Donc à réessayer une fois le status clean.
+
+Les services sont revenue op à 21 heures j’ai pu mettre mon server en https. 
+
+J’ai des permission denied sur filezilla alors que mon user à tout les droits .
+
+Ok j’ai réussis à me mettre les droits pour pouvoir y toucher avec filezilla. Je suis setup pour mon site. 
+
+J’ai dl un template gratuit qui sera vraiment beaucoup plus simple pour mon site web 
+
+https://www.free-css.com/free-css-templates/page241/kevin
+
+
+Il y a plus qu’a modifier à fin de me l’approprier . 
+
+Je git ça pour pouvoir le bosser en cloud.

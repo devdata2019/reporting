@@ -1,0 +1,57 @@
+Le modèle conceptuel des données 
+
+La conception de la base 
+
+Le modèle entité/association 
+
+    Le modèle entité/association est u ndiagramme contenant des entité et des associaition qui fournit une decription graphique du madèle conceptuel de données.
+    Il permet de tenir compte du choix envisgaé sans tenir compte du choix technique.
+    Il doit être compréhensible pour être partégé avec des personnes non informaticiennes.
+
+
+Les entités 
+
+Une entité et un objet unique et caractérisé par des attributs.
+
+Exemple : 
+Pour le marathon on définit la première entité << COUREUR >> avec les attribvuts suivants :
+
+Entité :                                 Instance :
+  COURREUR 
+    CO_NOM                               Peter,Chen 04/23/2019,Homme
+    CO_PRENOM
+    CO_NAISSANCE
+    CO_SEXE 
+
+L'identifiants ID:
+
+Suite à la création du dictionnaire dus données , il faut attribuer à chaque entité un identifiant. L'ID doit respecter des proprété suivante: 
+
+    - Unique pour chaque distance de l'entité.
+    - STABLE : il doit être indépendant de tout autre informations et ne pas évoluer dans le temps.
+    - MONO-VALUE : Une seul information et non une liste de valeur.
+    - MINIMAL : Non décomposable en plusieurs informations 
+
+On ajoutera à la liste des ùétadonnées CO_ID. La requête UPDATE SQL. 
+
+
+Les associations :
+
+Les associations sont les lients qui peuvent exister entre différentes entités.
+
+Exemple : 
+Les enetités COUREUR , CLUB , ANNE , sont tous relié par l'associations ADHESION.
+Les coureurs adhèrent à un club au cour d'une certaine années.
+
+
+Les cardinalitées : 
+
+Elles vont servir à établir les clés primaire et étrangère : 
+Il faut se poser les questions :
+    - Combien de coureur adhèrent à un club pour une année au maximum (n)
+    - Combien de coureur adhèrent à un club pour une années au minimum (0)
+vont servir à établir les clés primaire et étrangère : 
+Il faut se poser les questions :
+    - Combien de coureur adhèrent à un club pour une année au maximum (n)
+    - Combien de coureur adhèrent à un club pour une années au minimum (0)
+ 

@@ -1,0 +1,4 @@
+Présentation du projet BR de ludo et Dylan BR = python class , objet , instantation
+Intervention Vanessa data scientist CMA CGM 
+Analyse ligne par ligne du code du labyrinth
+Mise en pratique des class et des méthode sur le projet carnet d'addresse

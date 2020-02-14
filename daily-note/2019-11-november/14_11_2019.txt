@@ -1,0 +1,33 @@
+					GITHUB
+
+Pour chaque nouveau projet : créé un nouveau répertoire. Pour pouvoir travailler en local il faut cloné son repository en local via les command linux git clone ex : « https://github.com/devJB/jbcasino.py.git ».
+
+touch : créé un fichier
+mkdir : créé un dossier 
+nano : edit dans le terminal
+ls : list 
+cd : se déplacer
+
+Pour créé un répertoire en local pour pouvoir l’up sur github. j’ai du faire plusieurs recherches qui m’ont mener à la commande :
+
+git remote add origin git@github.com:devJB/whatever : 
+
+Username for 'https://github.com': devJB
+Password for 'https://devJB@github.com': 
+remote: Repository not found.
+fatal: repository 'https://github.com/devJB/whatever.git/' not found
+
+le git add origin était créé j’ai du le rm pour le rajouté à nouveau je fais face à un nouveau problème : 
+
+utilisateur@utilisateur-ThinkPad-T430:~/git_workspace/whatever$ git push -u origin master
+The authenticity of host 'github.com (140.82.118.3)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+fatal: Impossible de lire le dépôt distant.
+
+Je rencontre donc un problème d’identification avec la clé SSH.
+Je dois générer ma clé ssh que je dois affilier à mon ID agent.ssh.
+J’ai généré une clé ssh et l’ai lié à un id dans le terminal mais refuse de s’authentifier.
+J’ai bloquer pendant plus de 4 heures alors que j’avais fait le manipulation parce que tout simplement je n’avais pas update mon OS alors que j’avais fais l’acquisition de plusieurs packages.
+Nous avons mis en place un server discord qui regroupe plusieurs channel communautaire aide et de projet. Ce à quoi j’ai rajouté un Gdoc pour nos contacts.

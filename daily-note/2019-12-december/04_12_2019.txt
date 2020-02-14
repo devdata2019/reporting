@@ -1,0 +1,5 @@
+L'algorithme : 
+
+C'est un chemin d'étape.
+
+Il a 2 façon de posé un algorithme sous forme de diagrame et sous forme litéraire. De cette façon un algorithme est un procédé qui peut-être utilisé peut importe le language utilisé. 

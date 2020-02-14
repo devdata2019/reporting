@@ -1,0 +1,75 @@
+
+					Le début d’un projet: 
+
+La SWOT est un outil obligatoire pour mené à bien projet cf FDC pour pouvoir bien équilibré un projet. S: Strengh W: Weakness O: Opportunity T: Threat . Les événement S/W sont constamment d’origine intérieur au projet contrairement a O/T qui sont constamment d’origine extérieur. 
+
+Début de la prairie:
+
+Un jalon représente la fin d’un délais cf FDC
+Le livrable est le projet à délivré = le jalon livrable.
+
+Un projet devient un produit destiné à l’utilisateur.
+
+				La gestion/suivi de projet
+
+L’approche d’un projet doit être décidé en fonction de l’utilisateur. 
+
+
+L’approche classique : Waterfall/TopDown où l’on suit une liste du haut vers le bas. On parle de perte quand une tache n’est pas effectué. 
+
+L’approche dite agile : Scrum où répartie les taches de sorte à faire plusieurs tache en même tout en évitant un «burnout». cf FDC
+
+
+La pain/target : la source du problème. 
+
+
+
+					
+
+
+
+
+
+
+
+
+
+						La prairie
+C’est quoi le problème ? 
+
+La prairie comme pour la piscine à 42 est une phase de test.
+La prairie est notre premier problème à quel utilisateur est destiné la prairie ? ( Nous sommes les utilisateur ) Le problème est de savoir si cette formation est faite pour nous. 
+
+Les acteurs de cette prairie sont : Simplon ainsi que ses formateurs, pole emploi, le Cloître, les futur entreprise
+
+Qu’est-ce qui faira l’objet de la phase de test : notre motivation, notre assiduité, notre autonomie, notre organisation, nos performance et notre orientation.
+
+Mais qu’elle est le réel problème ? Les entreprise ont un besoin non négligeable de dev.data qui est un problème auquel réponds Simplon en créant une formation. Notre problème est de trouver une formation à fin de trouver un travail. Simplon réponds à notre besoin : trouver un travail ou monté en compétence ( acquérir de nouvelles compétence ). 
+
+On va tester notre capacité A SAVOIR SI : les objet de test sont réalisable.
+
+On doit pouvoir valorisé ce projet pour pouvoir le vendre, pour délivré ce service comme si c’était un cadeau.
+
+Quel est le jalon de la prairie ? 
+Est-ce qu’on sera evalué à l’issue de la prairie.
+Sur quel critère seront-nous évalué à l’issue de la formation ?
+
+Compte rendu : 
+14 jours à partir d’aujourd’hui donc fin : 27 Novembre 2019.
+
+
+
+
+
+
+
+
+Licence Opensource : accessible à tout le monde et ce gratuitement, modifiable ect.
+Licence propriétaire : payante, sécurisé 
+
+Python est un langage de programmation 
+SQL est un langage de requête où l’ont pose des questions.
+
+						GITHUB
+
+Un projet est accompagné du suivis de projet : .readme.txt.
