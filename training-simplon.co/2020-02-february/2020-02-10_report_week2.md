@@ -3,7 +3,7 @@
 # Monday 10 February 
 
 - Intervention Sebastien [D]
-
+La data scient qui fait partie d'un de vos domaine d'exploitation est un des aspects supplémentaire qui motive ma candidature 
 
 # Thuesday 11 February 
 
