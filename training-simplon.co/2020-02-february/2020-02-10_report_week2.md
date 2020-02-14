@@ -2,10 +2,12 @@
 
 # Monday 10 February 
 
-- intervention day
+- Intervention Sebastien [D]
+
 
 # Thuesday 11 February 
 
+- Requêtes d'aggrégation 
 
 # Wednesday 12 Frabruary
 
