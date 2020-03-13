@@ -27,9 +27,7 @@ https://www.youtube.com/watch?v=JogUFFcfIYg
 
 # Wednesday 11 Frabruary
 
-- Audit QGIS / NEAT (robosat.pink) / YOLT & YOLO (reconaissance "objet")
-
-Mise en place des environements sur données et plan géomatique. 
+Audit QGIS / NEAT (robosat.pink) / YOLT & YOLO (reconaissance "objet")
 
 ## Install qgis
 https://www.gis-blog.com/how-to-install-qgis-3-on-ubuntu/
@@ -80,12 +78,12 @@ if it don't work :
 ```
 sudo apt install qgis
 ```
-## install Neat 
+------------------------------
 
-**Il n'y a qu'a suivre la documentation**
+## Install Neat 
 
+**Il n'y a qu'a suivre la documentation :**
 https://datapink.io/datapink/neat-EO/
-
 
 # Thursday 12 February 
 
@@ -97,7 +95,7 @@ Import parkings.geojson sur le projet, ajout d'un layer openstreetmap
 
 Import d'emplacements de parkings par un export geojson depuis l'api overpass turbo sur région parisienne 
 
-**Overpassturbo**
+**Overpassturbo :**
 https://overpass-turbo.eu/
 
 ```
@@ -119,15 +117,18 @@ out meta;
 
 Drag and drop geo.json into project et select les layers souhaité + customization si nécessaire.
 
-**Ajout de layer js depuis un leaflet (ajout de connection)**
+-------------------------------------------------------------
+
+**Ajout de layer js depuis un leaflet (ajout de connection) :**
 https://leaflet-extras.github.io/leaflet-providers/preview/ 
 
 J'ai choisis ce plugin : Esri.WorldImagery
 ```
 https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}
 ```
+-------------------------------
 
-**Création de l'atlas et ajout des features** 
+**Création de l'atlas et ajout des features :** 
 https://www.sigterritoires.fr/index.php/faire-un-atlas-avec-qgis/
 
 Project >> New print layout "atlas" 
@@ -141,8 +142,13 @@ Enfin sampling des feature de l'atlas en .png.
 
 ## FULL REMOTE 
 
-**Mesure COVID-19, l'équipe passe en full remote via un git partagé, répartition des taches par avec trello**
+Mesure COVID-19, l'équipe passe en full remote via un git partagé, répartition des taches par avec trello.
 
-    - git partagé https://github.com/hachem13/StageCerema
-    - https://trello.com/b/oE3T8HdO/stage-cerema
-    - documentation "URL à venir"
+**1. Git partagé**
+https://github.com/hachem13/StageCerema
+
+**2. Trello**
+https://trello.com/b/oE3T8HdO/stage-cerema
+
+**3. Documentation** 
+"URL à venir"
