@@ -115,6 +115,13 @@ out meta;
 **Ajout de layer js depuis un leaflet (ajout de connection)**
 https://leaflet-extras.github.io/leaflet-providers/preview/ 
 
+J'ai choisis ce plugin : Esri.WorldImagery
+```
+https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}
+```
+
+**Création de l'atlas et ajout des features** 
+
 
 
 # Friday 13 February
