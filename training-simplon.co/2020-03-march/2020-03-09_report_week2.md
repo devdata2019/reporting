@@ -31,7 +31,7 @@ https://www.youtube.com/watch?v=JogUFFcfIYg
 
 Mise en place des environements sur données et plan géomatique. 
 
-**Install qgis** 
+## Install qgis
 https://www.gis-blog.com/how-to-install-qgis-3-on-ubuntu/
 
 ```
@@ -80,6 +80,11 @@ if it don't work :
 ```
 sudo apt install qgis
 ```
+## install Neat 
+
+**Il n'y a qu'a suivre la documentation**
+
+https://datapink.io/datapink/neat-EO/
 
 
 # Thursday 12 February 
@@ -112,6 +117,8 @@ https://overpass-turbo.eu/
 out meta;
 ```
 
+Drag and drop geo.json into project et select les layers souhaité + customization si nécessaire.
+
 **Ajout de layer js depuis un leaflet (ajout de connection)**
 https://leaflet-extras.github.io/leaflet-providers/preview/ 
 
@@ -121,9 +128,21 @@ https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/til
 ```
 
 **Création de l'atlas et ajout des features** 
+https://www.sigterritoires.fr/index.php/faire-un-atlas-avec-qgis/
 
+Project >> New print layout "atlas" 
+
+Ajout d'item map + génération d'atlas sur l'export d'overpassturbo 
+
+Enfin sampling des feature de l'atlas en .png.
 
 
 # Friday 13 February
 
-- 
+## FULL REMOTE 
+
+**Mesure COVID-19, l'équipe passe en full remote via un git partagé, répartition des taches par avec trello**
+
+    - git partagé https://github.com/hachem13/StageCerema
+    - https://trello.com/b/oE3T8HdO/stage-cerema
+    - documentation "URL à venir"
