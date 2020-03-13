@@ -8,17 +8,30 @@
 
 # Thuesday 10 February 
 
+## Source : 
+
+**Loading Data from OpenStreetMap with Python and the Overpass API**
 https://towardsdatascience.com/loading-data-from-openstreetmap-with-python-and-the-overpass-api-513882a27fd0
 
+**Parkings depuis data.gouv.fr**
 https://www.data.gouv.fr/fr/datasets/parkings/
 
+**Getting Started on Geospatial Analysis with Python, GeoJSON and GeoPandas**
 https://www.twilio.com/blog/2017/08/geospatial-analysis-python-geojson-geopandas.html
 
+**Deep learning #5 | Entrainement d'un modèle**
 https://www.youtube.com/watch?v=BHs_2ttLRXk&list=PLpEPgC7cUJ4b1ARx8PyIQa_sdZRL2GXw5&index=5
 
+**Keras pour les débutants: On fait une voiture autonome!**
 https://www.youtube.com/watch?v=JogUFFcfIYg
 
-Install qgis : 
+# Wednesday 11 Frabruary
+
+- Audit QGIS / NEAT (robosat.pink) / YOLT & YOLO (reconaissance "objet")
+
+Mise en place des environements sur données et plan géomatique. 
+
+**Install qgis** 
 https://www.gis-blog.com/how-to-install-qgis-3-on-ubuntu/
 
 ```
@@ -68,13 +81,42 @@ if it don't work :
 sudo apt install qgis
 ```
 
-# Wednesday 11 Frabruary
-
-
 
 # Thursday 12 February 
+
+## QGIS [ECA]
+
+**Mise en pratique QGIS sur su plan aérien, création de sample, création d'atlas et export de features d'atlas à fin de créé un dataset**
+
+Import parkings.geojson sur le projet, ajout d'un layer openstreetmap 
+
+Import d'emplacements de parkings par un export geojson depuis l'api overpass turbo sur région parisienne 
+
+**Overpassturbo**
+https://overpass-turbo.eu/
+
+```
+[timeout:40000];
+(
+  //area(3601403916); // France métropolitaine 1403916
+  area(3600008649); // paris 8649
+)->.zone;
+
+(
+  node[amenity=parking](area.zone);
+  (
+    way[amenity=parking](area.zone);
+    (._;>;);
+  );
+);
+out meta;
+```
+
+**Ajout de layer js depuis un leaflet (ajout de connection)**
+https://leaflet-extras.github.io/leaflet-providers/preview/ 
 
 
 
 # Friday 13 February
 
+- 
